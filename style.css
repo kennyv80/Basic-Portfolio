@@ -1,19 +1,26 @@
 body {
-    background-color: lightgray;
     width: 960px;
     margin: auto;
+    background-image: url("email-pattern.png");
 }
 
 header {
     background-color: white;
-    color black;  
+    color: black;  
     border: #cccccc;
     font-family: 'Georgia', Times, "Times New Roman", serif;
+    border-bottom-style: solid;
 }
 
 h2 {
     color: white;
     background-color: teal;
+    padding: 30px 40px;
+    margin: 0
+}
+
+.logo {
+    float:left;
 }
 
 ul {
@@ -22,38 +29,43 @@ ul {
     padding: 0;
     font-family: 'Arial', "Helvetica Neue", Helvetica, sans-serif;
   }
-
-li {
-    float: right;
-  } 
+  
+ul.float-nav {
+      float: right;
+  }
 
 .clearfix::after {
-    navbar: "";
+    content: "";
     clear: both;
     display: table;
   }  
 
+li {
+    display: inline;
+}
+
 li a {
-    display: block;
     padding: 8px;
     background-color: #dddddd;
+    border-width: thin;
+    text-decoration: none;
   }
 
 section {
     background-color: white;
-    padding: 100px 0;
+    padding: 0 50px;
+    margin-top: 60px;
+}
+section > .top-bar {
+    width: 100%;
 }
 
 h3 {
-    float: left;
+    color: teal;
 }
 
 img {
     float: left;
-}
-
-p.clear {
-    clear: both;
 }
 
 .footer {
@@ -68,5 +80,6 @@ p.clear {
     text-align: center;
     font-family: 'Arial', "Helvetica Neue", Helvetica, sans-serif;
     font-size: 10px;
-    height: 60px;
+    height: 50px;
+    border-width: thick;
 }

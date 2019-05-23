@@ -2,41 +2,46 @@
 <html>
     <head>
         <title>Kenny Virgil's Portfolio</title>
-         <!--https://www.w3schools.com/tags/tag_link.asp-->
          <link rel="stylesheet" type="text/css" href="style.css">
      </head>
-   
-    <body>
+     <body>
         <div class= "navbar">
-            <header>
-                <h2>Kenny Virgil</h2>
-                    <ul>
-                    <!--https://www.w3schools.com/css/css_navbar.asp-->
-                        <li><a href ="#About">About</a></li>
-                        <li><a href ="#Portfolio">Portfolio</a></li>
-                        <li><a href ="#Contact">Contact</a></li>
-                    </ul>
+            <header class="clearfix">
+                <div class="logo">
+                    <h2>Kenny Virgil</h2>
+                </div>
+                
+                <ul class="float-nav">
+                    <li><a href ="#About">About</a></li>
+                    <li><a href ="#Portfolio">Portfolio</a></li>
+                    <li><a href ="#Contact">Contact</a></li>
+                </ul>
             </header>
         </div>
-
-            <section>
-                <h3>About Me</h3>
-                <img src="Kenneth Virgil - Headshot.jpg" alt= "Me" style= "width:250px;height250px;">
-                <p>
-                    Hi, I'm Kenny.  
-                 <!--https://stackoverflow.com/questions/27809922/in-html-how-can-you-make-an-image-appear-while-you-are-hovering-over-text-->
-                <p> 
-                    People say I look like Drake, Tony Parker, and Oscar Isaac. What fun. 
-                </p>  
-                <p>  
-                    I'm learning how to be a full stack developer so that I can buy my girlfriend shiny, new trinkets.
-                </p>
-                <p>  
-                    This is my portfolio site. Enjoy it. I worked hard to make it look nice just for you.
-                </p>
+        
+            <section class="clearfix">
+                <div class="top-bar">
+                    <h3>About Me</h3>
+                </div>
+                <div class="content">
+                    <img src="Kenneth Virgil - Headshot.jpg" alt= "Me" style= "width:250px;height250px;">
+                    <p>
+                        Hi, I'm Kenny.  
+                    <!--https://stackoverflow.com/questions/27809922/in-html-how-can-you-make-an-image-appear-while-you-are-hovering-over-text-->
+                    <p> 
+                        People say I look like Drake, Tony Parker, and Oscar Isaac. What fun. 
+                    </p>  
+                    <p>  
+                        I'm learning how to be a full stack developer so that I can buy my girlfriend shiny, new trinkets.
+                    </p>
+                    <p>  
+                        This is my portfolio site. Enjoy it. I worked hard to make it look nice just for you.
+                    </p>
+                </div>
             </section>
         
         <div class="footer">
             <p>Made with love in Austin, TX</p>
+        </div>
     </body>
 </html>
