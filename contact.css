@@ -4,6 +4,7 @@ header {
     border: #cccccc;
     font-family: 'Georgia', Times, "Times New Roman", serif;
     border-bottom-style: solid;
+}
 
 .footer {
     position: fixed;
