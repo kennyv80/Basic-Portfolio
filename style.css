@@ -42,11 +42,12 @@ ul.float-nav {
 
 li {
     display: inline;
+    border-right: 1px solid black;
 }
 
 li a {
     padding: 8px;
-    background-color: #dddddd;
+    background-color: white;
     border-width: thin;
     text-decoration: none;
   }
@@ -54,7 +55,7 @@ li a {
 section {
     background-color: white;
     padding: 0 50px;
-    margin-top: 60px;
+    margin-top: 25px;
 }
 section > .top-bar {
     width: 100%;
